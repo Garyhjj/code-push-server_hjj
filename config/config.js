@@ -55,7 +55,6 @@ config.development = {
      * if value is 0, no limit for login auth, it may not safe for account. when it's a number, it means you can
      * try that times today. but it need config redis server.
      */
-    codePushWebUrl: "http://10.86.21.181:3000/",
     tryLoginTimes: 0,
     // CodePush Web(https://github.com/lisong/code-push-web) login address.
     //codePushWebUrl: "http://localhost:3001/login",
